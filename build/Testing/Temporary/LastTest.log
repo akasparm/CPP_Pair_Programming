@@ -1,0 +1,72 @@
+Start testing: Oct 08 11:24 EDT
+----------------------------------------------------------
+1/2 Testing: pid_controller_test_1.Implement_the_code_and_pass_the_test1
+1/2 Test: pid_controller_test_1.Implement_the_code_and_pass_the_test1
+Command: "/home/akabuoy/cpp-boilerplate-v2/build/test/cpp-test" "--gtest_filter=pid_controller_test_1.Implement_the_code_and_pass_the_test1" "--gtest_also_run_disabled_tests"
+Directory: /home/akabuoy/cpp-boilerplate-v2/build/test
+"pid_controller_test_1.Implement_the_code_and_pass_the_test1" start time: Oct 08 11:24 EDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = pid_controller_test_1.Implement_the_code_and_pass_the_test1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pid_controller_test_1
+[ RUN      ] pid_controller_test_1.Implement_the_code_and_pass_the_test1
+/home/akabuoy/cpp-boilerplate-v2/test/test.cpp:25: Failure
+Expected: (output) != (0.0), actual: 0 vs 0
+
+[  FAILED  ] pid_controller_test_1.Implement_the_code_and_pass_the_test1 (0 ms)
+[----------] 1 test from pid_controller_test_1 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] pid_controller_test_1.Implement_the_code_and_pass_the_test1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"pid_controller_test_1.Implement_the_code_and_pass_the_test1" end time: Oct 08 11:24 EDT
+"pid_controller_test_1.Implement_the_code_and_pass_the_test1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: pid_controller_test_2.Implement_the_code_and_pass_the_test2
+2/2 Test: pid_controller_test_2.Implement_the_code_and_pass_the_test2
+Command: "/home/akabuoy/cpp-boilerplate-v2/build/test/cpp-test" "--gtest_filter=pid_controller_test_2.Implement_the_code_and_pass_the_test2" "--gtest_also_run_disabled_tests"
+Directory: /home/akabuoy/cpp-boilerplate-v2/build/test
+"pid_controller_test_2.Implement_the_code_and_pass_the_test2" start time: Oct 08 11:24 EDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = pid_controller_test_2.Implement_the_code_and_pass_the_test2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pid_controller_test_2
+[ RUN      ] pid_controller_test_2.Implement_the_code_and_pass_the_test2
+/home/akabuoy/cpp-boilerplate-v2/test/test.cpp:33: Failure
+The difference between output and -102.02 is 102.02, which exceeds 1e-4, where
+output evaluates to 0,
+-102.02 evaluates to -102.02, and
+1e-4 evaluates to 0.0001.
+
+[  FAILED  ] pid_controller_test_2.Implement_the_code_and_pass_the_test2 (0 ms)
+[----------] 1 test from pid_controller_test_2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] pid_controller_test_2.Implement_the_code_and_pass_the_test2
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"pid_controller_test_2.Implement_the_code_and_pass_the_test2" end time: Oct 08 11:24 EDT
+"pid_controller_test_2.Implement_the_code_and_pass_the_test2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 08 11:24 EDT

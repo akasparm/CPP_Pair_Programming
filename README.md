@@ -1,6 +1,6 @@
 # CPP_Pair_Programming
 
-## Part-1:
+## Part-1(Team - A):
 Driver: Akashkumar Parmar (akasparm@umd.edu)
 
 Navigator: Ishan Kharat (ishanmk@umd.edu)
