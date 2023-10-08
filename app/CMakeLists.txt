@@ -2,6 +2,7 @@
 add_executable(shell-app
   # list of source cpp files:
   main.cpp
+  pid_controller.cpp
   )
 
 # Any include directories needed to build this target.
@@ -12,14 +13,4 @@ target_include_directories(shell-app PUBLIC
   ${CMAKE_SOURCE_DIR}/include
 )
 
-# Any dependent libraires needed to build this target.
-target_link_libraries(shell-app PUBLIC
-  # list of libraries
-  myLib1
-  myLib2
-  )
 
-target_link_options(shell-app PUBLIC
-  --static
-  )
-  
