@@ -1,13 +1,17 @@
 # CPP_Pair_Programming
 
+## Part-1:
+Driver: Akashkumar Parmar (akasparm@umd.edu)
+
+Navigator: Ishan Kharat (ishanmk@umd.edu)
+
 ## Overview
 
 A PID Controller implementation via pair programming using Test Driven Development.
 
 ## Standard install via command-line
 ```bash
-# Download the code:
-  git clone https://github.com/akasparm/CPP_Pair_Programming.git
+# Navigate to the repository: 
   cd CPP_Pair_Programming
 # Configure the project and generate a native build system:
   # Must re-run this command whenever any CMakeLists.txt file has been changed.
@@ -17,8 +21,6 @@ A PID Controller implementation via pair programming using Test Driven Developme
   cmake --build build/
   # or rebuild everything from scracth
   cmake --build build/ --clean-first
-  # to see verbose output, do:
-  cmake --build build/ --verbose
 # Run tests:
   ctest --test-dir build/
 ```
