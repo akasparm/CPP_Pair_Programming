@@ -21,7 +21,7 @@
  * @return int
  */
 int main() {
-  PIDController pidcontroller(0.1, 0.01, 0.5, 0.1, 0.0);
+  PIDController pidcontroller(0.1, 0.01, 0.01, 0.1, 0.0);
 
   double velocity = 20;
 
