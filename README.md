@@ -39,10 +39,6 @@ A PID Controller implementation via pair programming using Test Driven Developme
 # Run tests:
   ctest --test-dir build/
 ```
+Implemented the PID controller in app/pid_controller.cpp
 
-This will fail both the test cases. Implement the function in app/pid_controller.cpp, build and test the project again. 
-
-Implement the PID controller in the mentioned file, if the implementation is correct, the test cases will be passed!
-
-
-
+Both testcases passed successfully.
