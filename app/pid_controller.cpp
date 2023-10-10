@@ -1,3 +1,15 @@
+/**
+ * @file pid_controller.cpp
+ * @author Surya Chappidi (git username: SuryaVC), Vinay Krishna Bukka (git
+ * username: Vinay06vinay)
+ * @brief Implementation of the PID controller class
+ * @version 0.1
+ * @date 2023-10-10
+ *
+ * @copyright Copyright (c) 2023
+ *
+ */
+
 #include "../include/pid_controller.hpp"
 
 #include <cmath>
