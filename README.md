@@ -16,12 +16,11 @@ A PID Controller implementation via pair programming using Test Driven Developme
 
 ## CICD workflow status Badge
 
-![CICD Workflow status](https://github.com/SuryaVC/CPP_Pair_Programming/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg)
+[![Run Unit Test and Upload Coverage Report](https://github.com/SuryaVC/CPP_Pair_Programming/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg)](https://github.com/SuryaVC/CPP_Pair_Programming/actions/workflows/run-unit-test-and-upload-codecov.yml)
 
 ## Code Coverage Report
 
-[![codecov](https://codecov.io/gh/SuryaVC/CPP_Pair_Programming/branch/main/graph/badge.svg)](https://codecov.io/gh/SuryaVC/CPP_Pair_Programming)
-
+[![codecov](https://codecov.io/gh/SuryaVC/CPP_Pair_Programming/branch/main/graph/badge.svg)](https://codecov.io/gh/SuryaVC/CPP_Pair_Programming) 
 
 ## Standard install via command-line
 ```bash
