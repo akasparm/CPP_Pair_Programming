@@ -5,6 +5,11 @@ Driver: Akashkumar Parmar (akasparm@umd.edu)
 
 Navigator: Ishan Kharat (ishanmk@umd.edu)
 
+## Part-2(Team - B):
+Driver: Suryavardhan Reddy Chappidi (chappidi@umd.edu)
+
+Navigator: Vinay Krishna Bukka (vinay06@umd.edu)
+
 ## Overview
 
 A PID Controller implementation via pair programming using Test Driven Development.
