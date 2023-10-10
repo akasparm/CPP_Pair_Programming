@@ -1,5 +1,0 @@
-pid_controller_test_1.Implement_the_code_and_pass_the_test1 0 0
-pid_controller_test_2.Implement_the_code_and_pass_the_test2 0 0
----
-pid_controller_test_1.Implement_the_code_and_pass_the_test1
-pid_controller_test_2.Implement_the_code_and_pass_the_test2

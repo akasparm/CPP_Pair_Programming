@@ -1,5 +1,0 @@
-add_test( pid_controller_test_1.Implement_the_code_and_pass_the_test1 /home/akabuoy/cpp-boilerplate-v2/build/test/cpp-test [==[--gtest_filter=pid_controller_test_1.Implement_the_code_and_pass_the_test1]==] --gtest_also_run_disabled_tests)
-set_tests_properties( pid_controller_test_1.Implement_the_code_and_pass_the_test1 PROPERTIES WORKING_DIRECTORY /home/akabuoy/cpp-boilerplate-v2/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test( pid_controller_test_2.Implement_the_code_and_pass_the_test2 /home/akabuoy/cpp-boilerplate-v2/build/test/cpp-test [==[--gtest_filter=pid_controller_test_2.Implement_the_code_and_pass_the_test2]==] --gtest_also_run_disabled_tests)
-set_tests_properties( pid_controller_test_2.Implement_the_code_and_pass_the_test2 PROPERTIES WORKING_DIRECTORY /home/akabuoy/cpp-boilerplate-v2/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set( cpp-test_TESTS pid_controller_test_1.Implement_the_code_and_pass_the_test1 pid_controller_test_2.Implement_the_code_and_pass_the_test2)
