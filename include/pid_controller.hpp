@@ -20,6 +20,7 @@ class PIDController {
   double ki;
   double kd;
   double dt;
+  double previous_error;
 
  public:
   /**
@@ -29,9 +30,11 @@ class PIDController {
    * @param ki Integral gain
    * @param kd Derivative gain
    * @param dt Time derivative
+   * @param previous_error Error from previous iteration derivative
    */
-  PIDController(double kp, double ki, double kd, double dt)
-      : kp(kp), ki(ki), kd(kd), dt(dt){};
+  PIDController(double kp, double ki, double kd, double dt,
+                double previous_error)
+      : kp(kp), ki(ki), kd(kd), dt(dt), previous_error(previous_error){};
 
   /**
    * @brief Compute the new velocity error based on the target setpoint and

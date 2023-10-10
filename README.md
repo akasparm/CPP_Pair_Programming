@@ -9,6 +9,15 @@ Navigator: Ishan Kharat (ishanmk@umd.edu)
 
 A PID Controller implementation via pair programming using Test Driven Development.
 
+## CICD workflow status Badge
+
+![CICD Workflow status](https://github.com/akasparm/CPP_Pair_Programming/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg)
+
+## Code Coverage Report
+
+[![codecov](https://codecov.io/gh/akasparm/CPP_Pair_Programming/branch/main/graph/badge.svg)](https://codecov.io/gh/akasparm/CPP_Pair_Programming)
+
+
 ## Standard install via command-line
 ```bash
 # Navigate to the repository: 
@@ -28,4 +37,6 @@ A PID Controller implementation via pair programming using Test Driven Developme
 This will fail both the test cases. Implement the function in app/pid_controller.cpp, build and test the project again. 
 
 Implement the PID controller in the mentioned file, if the implementation is correct, the test cases will be passed!
+
+
 
