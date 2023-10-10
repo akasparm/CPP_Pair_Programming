@@ -16,7 +16,7 @@ A PID Controller implementation via pair programming using Test Driven Developme
 
 ## CICD workflow status Badge
 
-[![Run Unit Test and Upload Coverage Report](https://github.com/SuryaVC/CPP_Pair_Programming/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg)](https://github.com/SuryaVC/CPP_Pair_Programming/actions/workflows/run-unit-test-and-upload-codecov.yml)
+![CICD Workflow status](https://github.com/SuryaVC/CPP_Pair_Programming/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg)
 
 ## Code Coverage Report
 
