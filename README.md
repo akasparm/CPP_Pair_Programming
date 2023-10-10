@@ -5,18 +5,22 @@ Driver: Akashkumar Parmar (akasparm@umd.edu)
 
 Navigator: Ishan Kharat (ishanmk@umd.edu)
 
+## Part-2(Team - B):
+Driver: Suryavardhan Reddy Chappidi (chappidi@umd.edu)
+
+Navigator: Vinay Krishna Bukka (vinay06@umd.edu)
+
 ## Overview
 
 A PID Controller implementation via pair programming using Test Driven Development.
 
 ## CICD workflow status Badge
 
-![CICD Workflow status](https://github.com/akasparm/CPP_Pair_Programming/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg)
+![CICD Workflow status](https://github.com/SuryaVC/CPP_Pair_Programming/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg)
 
 ## Code Coverage Report
 
-[![codecov](https://codecov.io/gh/akasparm/CPP_Pair_Programming/branch/main/graph/badge.svg)](https://codecov.io/gh/akasparm/CPP_Pair_Programming)
-
+[![codecov](https://codecov.io/gh/SuryaVC/CPP_Pair_Programming/branch/main/graph/badge.svg)](https://codecov.io/gh/SuryaVC/CPP_Pair_Programming) 
 
 ## Standard install via command-line
 ```bash
@@ -30,13 +34,11 @@ A PID Controller implementation via pair programming using Test Driven Developme
   cmake --build build/
   # or rebuild everything from scracth
   cmake --build build/ --clean-first
+# Run program:
+  ./build/app/shell-app
 # Run tests:
   ctest --test-dir build/
 ```
+Implemented the PID controller in app/pid_controller.cpp
 
-This will fail both the test cases. Implement the function in app/pid_controller.cpp, build and test the project again. 
-
-Implement the PID controller in the mentioned file, if the implementation is correct, the test cases will be passed!
-
-
-
+Both testcases passed successfully.
