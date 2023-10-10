@@ -3,6 +3,15 @@
 #include <cmath>
 #include <iostream>
 
+/**
+ * @brief Calculate output based on the PID algorithm.
+ *
+ * This method calculates the new velocity based on the actual velocity and target velocity
+ * using the PID control algorithm.
+ * @param setpoint The target velocity
+ * @param actual_velocity The instantaneous velocity
+ * @return double - The control output that should be applied to the system
+ */
 double PIDController::compute(double setpoint, double actual_velocity) {
 
   // calculating the error
