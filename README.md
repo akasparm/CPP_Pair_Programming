@@ -42,3 +42,7 @@ A PID Controller implementation via pair programming using Test Driven Developme
 Implemented the PID controller in app/pid_controller.cpp
 
 Both testcases passed successfully.
+
+Discussion:
+
+The test cases are verifying the entirety of the code. Both the test cases are ensuring that the output value is not a random output but the correct implementation of the code. To make the code much more robust, we can add some more test cases, however, 2 test cases suffice the purpose in this case. 
