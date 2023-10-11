@@ -1,0 +1,7 @@
+Done processing ./app/main.cpp
+./app/pid_controller.cpp:6:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+Done processing ./app/pid_controller.cpp
+Done processing ./test/main.cpp
+./test/test.cpp:14:  Include the directory when naming header files  [build/include_subdir] [4]
+Done processing ./test/test.cpp
+Total errors found: 2
